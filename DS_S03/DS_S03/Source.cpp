@@ -14,7 +14,7 @@ struct Employee{
 };
 Employee* buildEmployee(char* name, int type, double hours)
 {
-	//1.declaring a new element
+	//1.declaring a new element of type Employee*
 	Employee* tmp = NULL;
 	//2.allocating memory space
 	tmp = (Employee*)malloc(sizeof(Employee));
